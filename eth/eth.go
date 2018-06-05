@@ -25,10 +25,10 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/regcostajr/go-web3/complex/types"
-	"github.com/regcostajr/go-web3/dto"
-	"github.com/regcostajr/go-web3/eth/block"
-	"github.com/regcostajr/go-web3/providers"
+	"github.com/apexliu/go-web3/complex/types"
+	"github.com/apexliu/go-web3/dto"
+	"github.com/apexliu/go-web3/eth/block"
+	"github.com/apexliu/go-web3/providers"
 )
 
 // Eth - The Eth Module

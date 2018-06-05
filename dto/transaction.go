@@ -22,7 +22,7 @@
 package dto
 
 import (
-	"github.com/regcostajr/go-web3/complex/types"
+	"github.com/apexliu/go-web3/complex/types"
 	"math/big"
 )
 

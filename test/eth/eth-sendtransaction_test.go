@@ -23,10 +23,10 @@ package test
 import (
 	"testing"
 
-	"github.com/regcostajr/go-web3"
-	"github.com/regcostajr/go-web3/complex/types"
-	"github.com/regcostajr/go-web3/dto"
-	"github.com/regcostajr/go-web3/providers"
+	"github.com/apexliu/go-web3"
+	"github.com/apexliu/go-web3/complex/types"
+	"github.com/apexliu/go-web3/dto"
+	"github.com/apexliu/go-web3/providers"
 	"math/big"
 )
 

@@ -22,8 +22,8 @@
 package personal
 
 import (
-	"github.com/regcostajr/go-web3/dto"
-	"github.com/regcostajr/go-web3/providers"
+	"github.com/apexliu/go-web3/dto"
+	"github.com/apexliu/go-web3/providers"
 )
 
 // Personal - The Personal Module

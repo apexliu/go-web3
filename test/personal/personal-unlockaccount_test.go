@@ -24,8 +24,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/regcostajr/go-web3"
-	"github.com/regcostajr/go-web3/providers"
+	"github.com/apexliu/go-web3"
+	"github.com/apexliu/go-web3/providers"
 )
 
 func TestPersonalUnlockAccount(t *testing.T) {

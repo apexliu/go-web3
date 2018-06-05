@@ -1,4 +1,4 @@
-package: github.com/regcostajr/go-web3
+package: github.com/apexliu/go-web3
 import:
 - package: golang.org/x/net
   subpackages:

@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	web3 "github.com/regcostajr/go-web3"
-	"github.com/regcostajr/go-web3/complex/types"
-	"github.com/regcostajr/go-web3/dto"
-	"github.com/regcostajr/go-web3/eth/block"
-	"github.com/regcostajr/go-web3/providers"
+	web3 "github.com/apexliu/go-web3"
+	"github.com/apexliu/go-web3/complex/types"
+	"github.com/apexliu/go-web3/dto"
+	"github.com/apexliu/go-web3/eth/block"
+	"github.com/apexliu/go-web3/providers"
 )
 
 func TestGetBlockTransactionCountByNumber(t *testing.T) {

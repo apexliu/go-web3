@@ -23,8 +23,8 @@ package test
 import (
 	"testing"
 
-	web3 "github.com/regcostajr/go-web3"
-	"github.com/regcostajr/go-web3/providers"
+	web3 "github.com/apexliu/go-web3"
+	"github.com/apexliu/go-web3/providers"
 )
 
 func Test_IPCProvider(t *testing.T) {
