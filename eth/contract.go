@@ -193,7 +193,7 @@ func (contract *Contract) getHexValue(inputType string, value interface{}) (stri
 			}
 		}
 
-		data += fmt.Sprintf("%064s", fmt.Sprintf("%x", bigVal.String()))
+		data += fmt.Sprintf("%064s", bigVal.String())
 	}
 
 	if strings.Compare("address", inputType) == 0 {
