@@ -87,6 +87,19 @@ func (pointer *RequestResult) ToString() (string, error) {
 
 }
 
+func (pointer *RequestResult) ToAddress() (string, error) {
+
+	if err := pointer.checkResponse(); err != nil {
+		return "", err
+	}
+
+	result := (pointer).Result.(interface{})
+
+	return "0x" + result.(string)[26:66], nil
+
+}
+
+
 func (pointer *RequestResult) ToInt() (int64, error) {
 
 	if err := pointer.checkResponse(); err != nil {

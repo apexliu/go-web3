@@ -201,9 +201,29 @@ func (contract *Contract) getHexValue(inputType string, value interface{}) (stri
 	}
 
 	if strings.Compare("string", inputType) == 0 {
-		data += fmt.Sprintf("%064s", fmt.Sprintf("%x", value.(string)))
+		//data += fmt.Sprintf("%064s", fmt.Sprintf("%x", value.(string)))
+		//data += fmt.Sprintf("%x", value.(string))
+		//data += fmt.Sprintf("%064s", fmt.Sprintf("%02x%x", len(value.(string)), value.(string)))
+
+		data_offset := fmt.Sprintf("%064x", 32)
+		str_len := len(value.(string))
+		pad_len := 64 - (str_len * 2)
+		data_len := fmt.Sprintf("%064x", str_len)
+		data_str := fmt.Sprintf("%x", value.(string))
+		if pad_len > 1 {
+			pad_fmt := fmt.Sprintf("%%0%ds", pad_len)
+			data_str += fmt.Sprintf(pad_fmt, "0")
+		}
+
+		// TODO: 前面补的 data_offset 只适用于只有一个参数且这个参数是string的情况。如果有多个参数，这个data_offset就不对了
+		data = data_offset + data_len + data_str
+	}
+
+	if strings.HasPrefix(inputType, "bytes") {
+		//data_offset := fmt.Sprintf("%064x", 32)
+		//data = data_offset + value.(string)
+		data = value.(string)
 	}
 
 	return data, nil
-
 }

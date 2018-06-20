@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1979893-ffd1-4918-80c3-5c97e855cf2d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/dto/block.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/request-result.go" beforeDir="false" afterPath="$PROJECT_DIR$/dto/request-result.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/syncing.go" beforeDir="false" afterPath="$PROJECT_DIR$/dto/syncing.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/dto/transaction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth/block/default-block-number.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/block/default-block-number.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth/contract.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/contract.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth/eth.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/eth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glide.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/glide.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/net.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/net.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/personal.go" beforeDir="false" afterPath="$PROJECT_DIR$/personal/personal.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/providers/http-provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/providers/http-provider.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/providers/ipc-provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/providers/ipc-provider.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/providers/websocket-provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/providers/websocket-provider.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shh/shh.go" beforeDir="false" afterPath="$PROJECT_DIR$/shh/shh.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-blocknumber_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-blocknumber_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-coinbase_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-coinbase_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-contract_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-contract_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-estimategas_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-estimategas_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-gasprice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-gasprice_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-getbalance_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-getbalance_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-getblockbyhash_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-getblockbyhash_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-getblockbynumber_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-getblockbynumber_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbynumber_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbynumber_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactionbyblockhashandindex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-gettransactionbyblockhashandindex_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactionbyblocknumberandindex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-gettransactionbyblocknumberandindex_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactionbyhash_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-gettransactionbyhash_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactioncount_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-gettransactioncount_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-getunclecountbyblockhash_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-getunclecountbyblockhash_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-getunclecountbyblocknumber_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-getunclecountbyblocknumber_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-hashrate_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-hashrate_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-mining_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-mining_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-protocolversion_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-protocolversion_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-sendtransaction_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-sendtransaction_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-signtransaction_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-signtransaction_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eth/eth-syncing_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/eth/eth-syncing_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/net/net-getpeercount_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/net-getpeercount_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/net/net-listening_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/net-listening_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/net/net-version_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/net-version_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/personal/personal-listaccounts_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/personal/personal-listaccounts_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/personal/personal-newaccount_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/personal/personal-newaccount_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/personal/personal-sendtransaction_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/personal/personal-sendtransaction_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/personal/personal-unlockaccount_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/personal/personal-unlockaccount_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/providers/http-provider_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/providers/http-provider_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/providers/ipc-provider_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/providers/ipc-provider_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/providers/websocket-provider_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/providers/websocket-provider_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/utils/utils-sha3_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/utils/utils-sha3_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/web3/web3-clientVersion_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/web3/web3-clientVersion_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web3.go" beforeDir="false" afterPath="$PROJECT_DIR$/web3.go" afterDir="false" />
-    </list>
+    <list default="true" id="b1979893-ffd1-4918-80c3-5c97e855cf2d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/eth/contract.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -104,7 +50,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1639" />
@@ -188,7 +134,7 @@
     <entry file="file://$PROJECT_DIR$/eth/contract.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
